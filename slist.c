@@ -12,7 +12,7 @@ struct Node*head=NULL;
 struct Node*newNode=NULL;
 int n,i,value;
 printf("enter number of nodes:");
-scvanf("%d",&n);
+scanf("%d",&n);
 for(i=0;i<n;i++)
 {
 newNode=(struct Node*)malloc(sizeof(struct Node));
